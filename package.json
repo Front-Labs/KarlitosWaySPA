@@ -1,14 +1,22 @@
 {
   "name": "karlitoswayspa",
   "version": "1.0.0",
-  "main": "dist/main.js",
+  "description": "Karlitos Way",
+  "main": "index.js",
+  "repository": "https://github.com/Front-Labs/KarlitosWaySPA.git",
+  "author": "Chris Kirk <uberengineer@gmail.com>",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "start": "webpack"
   },
-  "license": "MIT",
-  "private": true,
   "dependencies": {
     "@splidejs/splide": "^2.4.21",
+    "css-loader": "^5.1.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
     "sweetalert2": "^10.15.5",
     "webpack": "^5.24.2",
     "webpack-cli": "^4.5.0"

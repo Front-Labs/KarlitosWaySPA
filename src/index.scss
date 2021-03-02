@@ -1,0 +1,11 @@
+// Graphical variables
+@import "./stylesheets/config/fonts";
+@import "./stylesheets/config/colors";
+
+// External libraries
+@import "~@splidejs/splide/dist/css/splide.min.css";
+@import "~sweetalert2/dist/sweetalert2.min.css";
+
+// Your CSS partials
+@import "./stylesheets/components/index";
+@import "./stylesheets/pages/index";
