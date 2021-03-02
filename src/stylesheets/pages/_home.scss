@@ -1,0 +1,45 @@
+
+.home-container {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+}
+
+.slideshow {
+    position: absolute;
+}
+
+.slideshow-img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: opacity 0.85s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-banner h3 {
+    text-align: center;
+    font-size: 45px;
+    color: #ffffffcf;
+    font-weight: 600;
+    letter-spacing: 0.50em;
+    opacity: .8;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* For mobile */
+@media (orientation: portrait) {
+
+}

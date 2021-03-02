@@ -1,0 +1,16 @@
+{
+  "name": "karlitoswayspa",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21",
+    "sweetalert2": "^10.15.5",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

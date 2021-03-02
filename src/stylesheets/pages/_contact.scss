@@ -1,0 +1,146 @@
+.contact-banner {
+    position: absolute;
+    display: flex;
+    background: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.1), transparent, rgba(0, 0, 0, 0.1)),
+    rgba(169, 160, 150, 1);
+        button {
+        background: none;
+        font-family: 'Dosis', sans-serif;
+        color: black;
+        opacity: 0.7;
+        border: none;
+    }
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    img {
+        filter: invert(0.9);
+    }
+    
+    a {
+    // font-family: 'Dosis', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Raleway', sans-serif;
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+        &:hover {
+        opacity: 1;
+        transition: 300ms
+        }
+    }
+}
+   
+.contact-card img:hover {
+    -webkit-animation: 3s pulse infinite;
+    animation: 3s pulse infinite;
+}
+
+.swal2-close:focus {
+    box-shadow: none !important;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        filter: invert(0.8)
+    }
+    10%, 30% {
+        transform: scale(1.2);
+        filter: invert(1.0)
+    }
+    20% {
+        transform: scale(1.15);
+    }
+}
+
+@-webkit-keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        filter: invert(0.8)
+    }
+    10%, 30% {
+        transform: scale(1.2);
+        filter: invert(1.0)
+    }
+    20% {
+        transform: scale(1.15);
+    }
+}
+
+/* For Laptop */
+@media (orientation: landscape) {
+
+    .contact-container {
+        background: radial-gradient(transparent, transparent, rgba(127, 127, 127, 0.1)),
+        linear-gradient(transparent, transparent, rgba(127, 127, 127, 0.2), transparent, transparent),
+        white;
+    }
+    
+    .contact-banner {
+        top: 50%;
+        height: 25%;
+        width: 100%;
+        transform: translate(0, -50%);
+    }
+
+    .contact-card {
+        img {
+            width: 25%;
+        }
+    }
+
+    .footer-container {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 85vh;
+        height: 15%;
+        width: 100%;
+    }
+
+    .footer {
+        color: black;
+        margin: 30px;
+        padding-top: 10px;
+        padding-left: 25px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 15px;
+        font-weight: 200;
+    }
+}
+
+/* For mobile */
+@media (orientation: portrait) {
+
+    .contact-container {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+    }
+
+    .contact-banner {
+        flex-direction: column;
+        justify-content: center;
+        left: 50%;
+        height: 100%;
+        width: 45%;
+        transform: translate(-50%, 0%);
+    }
+
+
+    .contact-card {
+        height: 18%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        img {
+            width: 60%;
+        }
+    }
+}

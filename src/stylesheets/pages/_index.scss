@@ -1,0 +1,24 @@
+// Import page-specific CSS files here.
+@import "home";
+@import "about";
+@import "portfolio";
+@import "contact";
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    overscroll-behavior-y: none;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
