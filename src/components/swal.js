@@ -8,7 +8,7 @@ export const swal = () => {
   phone.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'http://res.cloudinary.com/daanr37/image/upload/v1608563352/Karlitos%20Way/telephone-qr_a1u4ml.svg',
+      imageUrl: 'src/graphics/phone-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Call QR Code',
@@ -22,7 +22,7 @@ export const swal = () => {
   instagram.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'http://res.cloudinary.com/daanr37/image/upload/v1608563350/Karlitos%20Way/instagram-qr_osangw.svg',
+      imageUrl: 'src/graphics/instagram-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Instagram QR Code',
@@ -36,7 +36,7 @@ export const swal = () => {
   email.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'http://res.cloudinary.com/daanr37/image/upload/v1608563327/Karlitos%20Way/email-qr_pvvwd8.svg',
+      imageUrl: 'src/graphics/email-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Email QR Code',

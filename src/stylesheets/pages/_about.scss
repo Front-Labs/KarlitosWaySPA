@@ -31,7 +31,7 @@
         height: 100vh;
         filter: sepia(0.1);
         background: radial-gradient(transparent, transparent, black),
-            url('http://res.cloudinary.com/daanr37/image/upload/v1608053058/Karlitos%20Way/Karlein_pic_uefmbh.jpg'),
+            url('images/karlein.jpg'),
             no-repeat;
         background-size: cover;
         width: 50%;
@@ -65,7 +65,7 @@
         filter: sepia(0.1);
         background-size: cover !important;
         background-position: 20% 0%!important;
-        background: url('http://res.cloudinary.com/daanr37/image/upload/v1608053058/Karlitos%20Way/Karlein_pic_uefmbh.jpg')
+        background: url('images/karlein.jpg')
     }
 
     #about-container-extra p {

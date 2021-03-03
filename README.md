@@ -1,3 +1,3 @@
-`yarn install` to run the dependancies
-`yarn start` to compile assets
-open `/index.hmtl` in browser
+`yarn install` to add any new dependancies 
+`yarn start` to (re)compile assets
+open `dist/index.hmtl` in browser
