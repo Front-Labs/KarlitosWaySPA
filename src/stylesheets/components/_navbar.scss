@@ -1,12 +1,12 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 75px !important;
-  top: 0;
-  left: 0;
-  position: fixed;
-  z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 75px !important;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 2;
 }
 
 
@@ -14,50 +14,45 @@
 @media (orientation: landscape) {
 
 .navbar-logo img {
-  width: 25vw;
-  position: absolute;
-  transform: translate(-13%, -50%);
+	width: 25vw;
+	position: absolute;
+	transform: translate(-13%, -50%);
 }
 
 #mobile-toggle {
-  display: none;
+	display: none;
 }
 
 .navbar {
-  mix-blend-mode: difference;
-  padding-top: 2rem;
+	mix-blend-mode: difference;
+	padding-top: 2rem;
 }
 
 .toggle {
-  display: none;
+	display: none;
 }
 
 .navbar-data {
-  display: flex;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 400;
-  list-style-type: none;
-  letter-spacing: .10em !important;
-  a {
-    // font-family: 'Dosis', sans-serif;
-    // font-family: 'Heebo', sans-serif;
-    // font-family: 'Raleway', sans-serif;
-    // font-family: 'Didact Gothic', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    opacity: 0.80;
-    margin-right: 60px;
-    margin-left: -27px;
-    color: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
-    &:hover {   
-      border-bottom: 1px solid white; 
-      opacity: 1;
-      color: white;
-      transition: 300ms;
-    }
-  }
+	display: flex;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+	list-style-type: none;
+	letter-spacing: .10em !important;
+	a {
+		text-decoration: none;
+		opacity: 0.80;
+		margin-right: 60px;
+		margin-left: -27px;
+		color: white;
+		border-bottom: 1px solid rgba(0, 0, 0, 0);
+		&:hover {   
+			border-bottom: 1px solid white; 
+			opacity: 1;
+			color: white;
+			transition: 300ms;
+		}
+  	}
 }
 
 .navbar-highlight {
@@ -74,70 +69,66 @@
 /* For mobile */
 @media (orientation: portrait) {
 
-  .navbar-logo img {
-    width: 60vw;
-    position: absolute;
-    transform: translate(-20%, -50%);
-  }
-  
-  .navbar {
-    flex-wrap: wrap;
-    align-items: center;
-    list-style-type: none;
-    padding: 0 15px;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), transparent);
-  }
+	.navbar-logo img {
+		width: 60vw;
+		position: absolute;
+		transform: translate(-20%, -50%);
+	}
+	
+	.navbar {
+		flex-wrap: wrap;
+		align-items: center;
+		list-style-type: none;
+		padding: 0 15px;
+		background: linear-gradient(rgba(0, 0, 0, 0.7), transparent);
+	}
 
-  .nav-colored {
-    background-color: black;
-    transition: ease-in 400ms;
-    opacity: 0.7;
-    // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
-  }
-  
-  .nav-transparent {
-    background-color: transparent;
-    transition: ease-out 400ms;
-  }
+	.nav-colored {
+		background-color: black;
+		transition: ease-in 400ms;
+		opacity: 0.7;
+	}
+	
+	.nav-transparent {
+		background-color: transparent;
+		transition: ease-out 400ms;
+	}
 
-  a {
-    color: white;
-    // text-decoration: none;
-  }
+	a {
+		color: white;
+	}
 
-  .navbar li a {
-    display: block;
-    padding: 15px 5px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    color: white;
-  }
+	.navbar li a {
+		display: block;
+		padding: 15px 5px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+	}
 
-  .navbar-logo {
-    font-size: 20px;
-    padding: 7.5px 10px 7.5px 0;
-    text-decoration: none;
-  }
+	.navbar-logo {
+		font-size: 20px;
+		padding: 7.5px 10px 7.5px 0;
+		text-decoration: none;
+	}
 
-  .toggle {
-    order: 1;
-    font-size: 25px;
-    list-style-type: none;
+	.toggle {
+		order: 1;
+		font-size: 25px;
+		list-style-type: none;
 
-  }
+	}
 
-  .navbar-data {
-    order: 2;
-    width: 100%;
-    text-align: center;
-    display: none;
-    padding: 10px;
-    list-style-type: none;
-    // background:rgba(0, 0, 0, 0.3)
-  }
+	.navbar-data {
+		order: 2;
+		width: 100%;
+		text-align: center;
+		display: none;
+		padding: 10px;
+		list-style-type: none;
+	}
 
-  .active .navbar-data {
-    display: block;
-  }
+	.active .navbar-data {
+		display: block;
+	}
 }

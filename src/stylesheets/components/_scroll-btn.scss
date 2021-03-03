@@ -1,97 +1,97 @@
 .scroll-btn {
-    box-sizing: border-box;
-    position: fixed;
-    left: 50%;
-    bottom: 10%;
-    mix-blend-mode: difference;
-    width: 100%;
-    z-index: 2;
+	box-sizing: border-box;
+	position: fixed;
+	left: 50%;
+	bottom: 10%;
+	mix-blend-mode: difference;
+	width: 100%;
+	z-index: 2;
 }
 
 .scroll-btn::after {
-    content: "";
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-right: 0.2rem solid white;
-    border-bottom: 0.2rem solid white;
-    border-radius: 0.1rem;
-    opacity: (0.7);
-    transform: translate(-50%) rotate(45deg);
-    -webkit-animation: 3s scroll infinite;
-    animation: 3s scroll infinite;
+	content: "";
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-right: 0.2rem solid white;
+	border-bottom: 0.2rem solid white;
+	border-radius: 0.1rem;
+	opacity: (0.7);
+	transform: translate(-50%) rotate(45deg);
+	-webkit-animation: 3s scroll infinite;
+	animation: 3s scroll infinite;
 }
 
 .scroll-up .scroll-btn::after {
-    transform: translate(-50%) rotate(225deg);
-    -webkit-animation: 1s spin, 3s scroll infinite;
-    animation: 1s spin, 3s scroll infinite;
-    transform: translate(-50%) rotate(225deg);
+	transform: translate(-50%) rotate(225deg);
+	-webkit-animation: 1s spin, 3s scroll infinite;
+	animation: 1s spin, 3s scroll infinite;
+	transform: translate(-50%) rotate(225deg);
 }
 
 .scroll-down .scroll-btn::after {
-    -webkit-animation: 1s revSpin, 3s scroll infinite;
-    animation: 1s revSpin, 3s scroll infinite;
-    transform: translate(-50%) rotate(45deg);
+	-webkit-animation: 1s revSpin, 3s scroll infinite;
+	animation: 1s revSpin, 3s scroll infinite;
+	transform: translate(-50%) rotate(45deg);
 }
 
 @-moz-keyframes scroll {
-    0%, 100% {
-        top: 1vh;
-    }
-    50% {
-        top: 0;
-    }
+	0%, 100% {
+		top: 1vh;
+	}
+	50% {
+		top: 0;
+	}
 }
 @keyframes scroll {
-    0%, 100% {
-        top: 1vh;
-    }
-    50% {
-        top: 0;
-    }
+	0%, 100% {
+		top: 1vh;
+	}
+	50% {
+		top: 0;
+	}
 }
 @-webkit-keyframes scroll {
-    0%, 100% {
-        top: 1vh;
-    }
-    50% {
-        top: 0;
-    }
+	0%, 100% {
+		top: 1vh;
+	}
+	50% {
+		top: 0;
+	}
 }
 
 @-moz-keyframes spin {
-    from { -moz-transform: translate(-50%) rotate(45deg); }
-    to { -moz-transform: translate(-50%) rotate(225deg); }
+	from { -moz-transform: translate(-50%) rotate(45deg); }
+	to { -moz-transform: translate(-50%) rotate(225deg); }
 }
 @-webkit-keyframes spin {
-    from { -webkit-transform: translate(-50%) rotate(45deg); }
-    to { -webkit-transform: translate(-50%) rotate(225deg); }
+	from { -webkit-transform: translate(-50%) rotate(45deg); }
+	to { -webkit-transform: translate(-50%) rotate(225deg); }
 }
 @keyframes spin {
-    from {transform: translate(-50%) rotate(45deg);}
-    to {transform: translate(-50%) rotate(225deg);}
+	from {transform: translate(-50%) rotate(45deg);}
+	to {transform: translate(-50%) rotate(225deg);}
 }
 
 @-moz-keyframes revSpin {
-    from { -moz-transform: translate(-50%) rotate(225deg); }
-    to { -moz-transform: translate(-50%) rotate(45deg); }
+	from { -moz-transform: translate(-50%) rotate(225deg); }
+	to { -moz-transform: translate(-50%) rotate(45deg); }
 }
 @-webkit-keyframes revSpin {
-    from { -webkit-transform: translate(-50%) rotate(225deg); }
-    to { -webkit-transform: translate(-50%) rotate(45deg); }
+	from { -webkit-transform: translate(-50%) rotate(225deg); }
+	to { -webkit-transform: translate(-50%) rotate(45deg); }
 }
 @keyframes revSpin {
-    from {transform: translate(-50%) rotate(225deg);}
-    to {transform: translate(-50%) rotate(45deg);}
+	from {transform: translate(-50%) rotate(225deg);}
+	to {transform: translate(-50%) rotate(45deg);}
 }
 
 @media (orientation: portrait) {
-    .scroll-btn {
-        display: none;
-    }
+	.scroll-btn {
+		display: none;
+	}
 }
