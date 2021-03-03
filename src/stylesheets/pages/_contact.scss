@@ -23,12 +23,12 @@
     }
     
     a {
-    color: white;
-    opacity: 0.8;
-    text-decoration: none;
+        color: white;
+        opacity: 0.8;
+        text-decoration: none;
         &:hover {
-        opacity: 1;
-        transition: 300ms
+            opacity: 1;
+            transition: 300ms
         }
     }
 }
@@ -107,7 +107,6 @@
         margin: 30px;
         padding-top: 10px;
         padding-left: 25px;
-        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         font-weight: 200;
     }
