@@ -5,7 +5,7 @@ import { sectionHighlight } from './components/sectionHighlight.js'
 import { slideshow } from './components/slideshow.js'
 import { splide } from './components/splide.js'
 import { swal } from './components/swal.js'
-import '@fortawesome/fontawesome-free/js/all.min.js';
+import '@fortawesome/fontawesome-free';
 import './index.scss'
 
   aboutFade() 

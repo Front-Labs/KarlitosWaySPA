@@ -8,42 +8,39 @@ export const swal = () => {
   phone.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'src/graphics/phone-qr.svg',
+      imageUrl: '.images/phone-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Call QR Code',
       showConfirmButton: false,
       background: 'rgba(0,0,0,0)',
       showCloseButton: true
-      // html: '<p>SCAN ME!</p>'
     })
   })
 
   instagram.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'src/graphics/instagram-qr.svg',
+      imageUrl: '.images/instagram-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Instagram QR Code',
       showConfirmButton: false,
       background: 'rgba(0,0,0,0)',
       showCloseButton: true
-      // html: '<p>SCAN ME!</p>'
     })
   })
 
   email.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'src/graphics/email-qr.svg',
+      imageUrl: '.images/email-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Email QR Code',
       showConfirmButton: false,
       background: 'rgba(0,0,0,0)',
       showCloseButton: true
-      // html: '<p>SCAN ME!</p>'
     })
   })
 }

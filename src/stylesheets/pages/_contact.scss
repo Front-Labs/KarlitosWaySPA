@@ -4,9 +4,8 @@
     background: 
     linear-gradient(90deg, rgba(0, 0, 0, 0.1), transparent, rgba(0, 0, 0, 0.1)),
     rgba(169, 160, 150, 1);
-        button {
+    button {
         background: none;
-        font-family: 'Dosis', sans-serif;
         color: black;
         opacity: 0.7;
         border: none;
@@ -24,9 +23,6 @@
     }
     
     a {
-    // font-family: 'Dosis', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    // font-family: 'Raleway', sans-serif;
     color: white;
     opacity: 0.8;
     text-decoration: none;
@@ -111,7 +107,7 @@
         margin: 30px;
         padding-top: 10px;
         padding-left: 25px;
-        font-family: 'Dosis', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         font-weight: 200;
     }

@@ -1,52 +1,49 @@
 /* For Laptop */
 @media (orientation: landscape) {
-  #portfolio {
-    background: radial-gradient(rgba(255, 255, 255, 0.05), black) black;
-  }
+	#portfolio {
+		background: radial-gradient(rgba(255, 255, 255, 0.05), black) black;
+	}
 
-  .splide {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+	.splide {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 
-  .splide-container {
-    height: 100%;
-    width: 100%;
-  }
+	.splide-container {
+		height: 100%;
+		width: 100%;
+	}
 
-  .splide__slide {
-    border-radius: 2px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(255, 255, 255, 0.7);
-    filter: opacity(0.7) blur(1px) grayscale(0.8);
-  }
+	.splide__slide {
+		border-radius: 2px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: rgba(255, 255, 255, 0.7);
+		filter: opacity(0.7) blur(1px) grayscale(0.8);
+	}
 
-  .splide__slide.is-active.is-visible {
-    filter: opacity(0.9);
-    transition: ease-out 600ms;
-  }
+	.splide__slide.is-active.is-visible {
+		filter: opacity(0.9);
+		transition: ease-out 600ms;
+	}
 }
 
 /* For mobile */
 @media (orientation: portrait) {
 
-  .splide {
-    height: 100%;
-  }
+	.splide {
+		height: 100%;
+	}
 
-  .splide-container {
-    position: absolute;
-    top: 75px;
-    bottom: 0;
-    width: 100%;
-  }
+	.splide-container {
+		position: absolute;
+		top: 75px;
+		bottom: 0;
+		width: 100%;
+	}
 
-  #portfolio {
-    background: black;
-  }
-
-  
-
+	#portfolio {
+		background: black;
+	}
 }
