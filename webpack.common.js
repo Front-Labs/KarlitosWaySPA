@@ -10,6 +10,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.html$/,
+        use: ['html-loader']
+      },
+      {
         test: /\.scss$/,
         use: [
           'style-loader',
@@ -18,17 +22,13 @@ module.exports = {
         ]
       },
       {
-        test: /\.html$/,
-        use: ['html-loader']
-      },
-      {
         test: /\.(jpg|png|svg|woff|woff2|ttf|eot)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
               name: '[name].[ext]',
-              outputPath: 'images'
+              outputPath: 'images',
             }
           }
         ]
