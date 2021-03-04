@@ -4,15 +4,15 @@
     background: radial-gradient(rgba(255, 255, 255, 0.05), black) black;
   }
 
+  .splide-container {
+    height: 100%;
+    width: 100%;
+  }
+
   .splide {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  .splide-container {
-    height: 100%;
-    width: 100%;
   }
 
   .splide__slide {
