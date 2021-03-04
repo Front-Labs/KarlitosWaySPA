@@ -16,7 +16,8 @@
 .navbar-logo img {
 	width: 25vw;
 	position: absolute;
-	transform: translate(-13%, -50%);
+	left: 3%;
+	top: 37%;
 }
 
 #mobile-toggle {
@@ -70,16 +71,19 @@
 @media (orientation: portrait) {
 
 	.navbar-logo {
-		width: 60vw;
+		overflow: hidden;
+		text-decoration: none;
+		img {
+		width: 20vw;
 		position: absolute;
-		transform: translate(-20%, -50%);
-		background: url('./images/logo.png');
+		top: 36%;
+        left: 8%;
+		}
 	}
 	
 	.navbar {
 		flex-wrap: wrap;
 		align-items: center;
-		// list-style-type: none;
 		padding: 0 15px;
 		background: linear-gradient(rgba(0, 0, 0, 0.7), transparent);
 	}
@@ -107,16 +111,16 @@
 		color: white;
 	}
 
-	.navbar-logo {
-		font-size: 20px;
-		padding: 7.5px 10px 7.5px 0;
-		text-decoration: none;
+	.toggle img {
+		order: 1;
+		font-size: 25px;
+		width: 20px;
+		transform: translate(-180%, -35%);
 	}
 
 	.toggle {
-		order: 1;
-		font-size: 25px;
 		list-style-type: none;
+		filter: invert(1);
 	}
 
 	.navbar-data {
@@ -126,6 +130,7 @@
 		display: none;
 		padding: 10px;
 		list-style-type: none;
+		z-index: 1;
 	}
 
 	.active .navbar-data {
