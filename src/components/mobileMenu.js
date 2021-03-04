@@ -5,10 +5,10 @@ export const mobileMenu = () => {
   function toggleMenu() {
     if (navbar.classList.contains('active')) {
       navbar.classList.remove('active')
-      toggle.querySelector('a').innerHTML = "<i class='fas fa-bars'></i>"
+      toggle.querySelector('a').innerHTML = "<img src='images/bars-solid.svg'>"
     } else {
       navbar.classList.add('active')
-      toggle.querySelector('a').innerHTML = "<i class='fas fa-times'></i>"
+      toggle.querySelector('a').innerHTML = "<img src='images/times-solid.svg'>"
     }
   }
 

@@ -69,16 +69,17 @@
 /* For mobile */
 @media (orientation: portrait) {
 
-	.navbar-logo img {
+	.navbar-logo {
 		width: 60vw;
 		position: absolute;
 		transform: translate(-20%, -50%);
+		background: url('./images/logo.png');
 	}
 	
 	.navbar {
 		flex-wrap: wrap;
 		align-items: center;
-		list-style-type: none;
+		// list-style-type: none;
 		padding: 0 15px;
 		background: linear-gradient(rgba(0, 0, 0, 0.7), transparent);
 	}
@@ -116,7 +117,6 @@
 		order: 1;
 		font-size: 25px;
 		list-style-type: none;
-
 	}
 
 	.navbar-data {
