@@ -1,16 +1,10 @@
-// Graphical variables
-@import "./stylesheets/config/fonts";
-@import "./stylesheets/config/colors";
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 // External libraries
 @import "~@splidejs/splide/dist/css/splide.min.css";
-@import "~sweetalert2/dist/sweetalert2.min.css";
-// // @import "~@fortawesome/fontawesome-free";
-// // @import "~@fortawesome/fontawesome-free/css/all.min.css";
-// // @import "~@fortawesome/fontawesome-free/js/all.min.css";
-
-// // @import "~font-awesome-sprockets";
-// @import "~font-awesome/css/font-awesome.css";
+@import "~sweetalert2/dist/sweetalert2.min.css"; 
+// @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 // Your CSS partials
 @import "./stylesheets/components/index";

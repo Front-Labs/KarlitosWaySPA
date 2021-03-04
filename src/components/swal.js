@@ -8,42 +8,39 @@ export const swal = () => {
   phone.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'http://res.cloudinary.com/daanr37/image/upload/v1608563352/Karlitos%20Way/telephone-qr_a1u4ml.svg',
+      imageUrl: '.images/phone-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Call QR Code',
       showConfirmButton: false,
       background: 'rgba(0,0,0,0)',
       showCloseButton: true
-      // html: '<p>SCAN ME!</p>'
     })
   })
 
   instagram.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'http://res.cloudinary.com/daanr37/image/upload/v1608563350/Karlitos%20Way/instagram-qr_osangw.svg',
+      imageUrl: '.images/instagram-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Instagram QR Code',
       showConfirmButton: false,
       background: 'rgba(0,0,0,0)',
       showCloseButton: true
-      // html: '<p>SCAN ME!</p>'
     })
   })
 
   email.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: 'http://res.cloudinary.com/daanr37/image/upload/v1608563327/Karlitos%20Way/email-qr_pvvwd8.svg',
+      imageUrl: '.images/email-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Email QR Code',
       showConfirmButton: false,
       background: 'rgba(0,0,0,0)',
       showCloseButton: true
-      // html: '<p>SCAN ME!</p>'
     })
   })
 }
