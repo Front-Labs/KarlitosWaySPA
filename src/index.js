@@ -1,17 +1,19 @@
-import { aboutFade } from './components/aboutFade.js'
-import { mobileMenu } from './components/mobileMenu.js'
-import { navFade } from './components/navFade.js'
-import { sectionHighlight } from './components/sectionHighlight.js'
+import './index.scss'
 import { slideshow } from './components/slideshow.js'
+import { sectionHighlight } from './components/sectionHighlight.js'
+import { navFade } from './components/navFade.js'
+
+import { mobileMenu } from './components/mobileMenu.js'
+import { aboutFade } from './components/aboutFade.js'
+
 import { splide } from './components/splide.js'
 import { swal } from './components/swal.js'
-import '@fortawesome/fontawesome-free';
-import './index.scss'
+// import '@fortawesome/fontawesome-free';
 
-  aboutFade() 
-  mobileMenu()
-  navFade()
-  sectionHighlight()
-  slideshow()
-  splide()
-  swal()
+slideshow()
+sectionHighlight()
+navFade()
+mobileMenu()
+aboutFade() 
+splide()
+swal()
