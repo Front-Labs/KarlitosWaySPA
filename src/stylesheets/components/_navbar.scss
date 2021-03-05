@@ -7,18 +7,23 @@
 	left: 0;
 	position: fixed;
 	z-index: 2;
+	align-items: center;
+}
+
+.navbar-logo img {
+		width: 100%;
+		height: 100%;
 }
 
 
 //* For Laptop *//
 @media (orientation: landscape) {
 
-.navbar-logo img {
-	width: 25vw;
-	position: absolute;
-	left: 3%;
-	top: 37%;
-}
+.navbar-logo {
+	width: 15vw;
+	display: flex;
+	margin-left: 60px;
+}	
 
 #mobile-toggle {
 	display: none;
@@ -71,14 +76,9 @@
 @media (orientation: portrait) {
 
 	.navbar-logo {
-		overflow: hidden;
+		width: 45vw;
+		display: flex;
 		text-decoration: none;
-		img {
-		width: 20vw;
-		position: absolute;
-		top: 36%;
-        left: 8%;
-		}
 	}
 	
 	.navbar {
@@ -111,16 +111,15 @@
 		color: white;
 	}
 
-	.toggle img {
-		order: 1;
-		font-size: 25px;
-		width: 20px;
-		transform: translate(-180%, -35%);
-	}
-
 	.toggle {
 		list-style-type: none;
 		filter: invert(1);
+		img {
+			order: 1;
+			font-size: 25px;
+			width: 20px;
+			transform: translate(-180%);
+		}
 	}
 
 	.navbar-data {

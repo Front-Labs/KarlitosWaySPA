@@ -1,5 +1,4 @@
 import './index.scss'
-import '@fortawesome/fontawesome-free';
 import { slideshow } from './components/slideshow.js'
 import files from './images/files';
 import { mobileMenu } from './components/mobileMenu.js'
