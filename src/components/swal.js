@@ -8,7 +8,7 @@ export const swal = () => {
   phone.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: '.images/phone-qr.svg',
+      imageUrl: './images/phone-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Call QR Code',
@@ -21,7 +21,7 @@ export const swal = () => {
   instagram.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: '.images/instagram-qr.svg',
+      imageUrl: './images/instagram-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Instagram QR Code',
@@ -34,7 +34,7 @@ export const swal = () => {
   email.addEventListener('click', (event) => {
     Swal.fire({
       width: 350,
-      imageUrl: '.images/email-qr.svg',
+      imageUrl: './images/email-qr.svg',
       imageHeight: 250,
       imageWidth: 250,
       imageAlt: 'Email QR Code',

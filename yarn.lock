@@ -12,6 +12,13 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.2.tgz#218cd7276ab4f9ab57cc3d2efa2697e6a579f25d"
   integrity sha512-7l/AX41m609L/EXI9EKH3Vs3v0iA8tKlIOGtw+kgcoanI7p+e4I4GYLqW3UXWiTnjSFymKSmTTPKYrivzbxxqA==
 
+"@splidejs/splide-extension-video@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@splidejs/splide-extension-video/-/splide-extension-video-0.4.6.tgz#fe832e0a2f87a56896e800aead73e6ef78f2cb96"
+  integrity sha512-UEqxkuYClYDhV+DsX9384wKj6FWwWN3HUvUXcNPVKZiHvh0Zn0t1M2w/hcDRJ3VtCxFhx92Kgzlkf22HqdyF+g==
+  dependencies:
+    "@vimeo/player" "^2.10.0"
+
 "@splidejs/splide@^2.4.21":
   version "2.4.21"
   resolved "https://registry.yarnpkg.com/@splidejs/splide/-/splide-2.4.21.tgz#ad1954d8d8822c9bfea0d3dc6a119358b88581ad"
@@ -108,6 +115,14 @@
     "@types/uglify-js" "*"
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
+
+"@vimeo/player@^2.10.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@vimeo/player/-/player-2.15.0.tgz#c1037706f0a95abf87f6aa960d058e11efe6510e"
+  integrity sha512-PH+H7G7pIUbrw8AHeigOc13cUoe8E78y4XCVqSP7pLFj/kQm0EvHQGBO3224Qq7a0XMEmNR6kH+n+8o0GslWCg==
+  dependencies:
+    native-promise-only "0.8.1"
+    weakmap-polyfill "2.0.1"
 
 "@webassemblyjs/ast@1.11.0":
   version "1.11.0"
@@ -2606,6 +2621,11 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+native-promise-only@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/native-promise-only/-/native-promise-only-0.8.1.tgz#20a318c30cb45f71fe7adfbf7b21c99c1472ef11"
+  integrity sha1-IKMYwwy0X3H+et+/eyHJnBRy7xE=
+
 negotiator@0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
@@ -4173,6 +4193,11 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
+
+weakmap-polyfill@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/weakmap-polyfill/-/weakmap-polyfill-2.0.1.tgz#ff0278c7f75bb0c492fc3343257f3e87114d709a"
+  integrity sha512-Jy177Lvb1LCrPQDWJsXyyqf4eOhcdvQHFGoCqSv921kVF5i42MVbr4e2WEwetuTLBn1NX0IhPzTmMu0N3cURqQ==
 
 webpack-cli@^4.5.0:
   version "4.5.0"
