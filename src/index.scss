@@ -1,9 +1,11 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 // External libraries
 @import "~@splidejs/splide/dist/css/splide.min.css";
 @import "~sweetalert2/dist/sweetalert2.min.css"; 
+@import "~@splidejs/splide-extension-video/dist/css/splide-extension-video.min.css";
 
 // Your CSS partials
 @import "./stylesheets/components/index";
