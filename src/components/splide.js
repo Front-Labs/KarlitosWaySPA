@@ -9,8 +9,7 @@ export const splide = () => {
         type       : 'fade',
         arrows     : false,
         cover      : true,
-        height     : '100vh'
-  
+        height     : '100vh',
     }).mount( { Video } )
   } else {
     // landscape
