@@ -78,12 +78,10 @@
 /* For mobile */
 @media (orientation: portrait) {
 
-	.navbar-logo {
-		height: 100%;
-		 img {
+	.navbar-logo img {
 		 top: 0.5rem;
 		 height: 90%;
-		}
+    	 width: 15%;
 	}
 	
 	.navbar {
@@ -102,10 +100,6 @@
 		transition: ease-out 400ms;
 	}
 
-	a {
-		color: white;
-	}
-
 	.navbar li a {
 		display: block;
 		padding: 15px 5px;
@@ -117,10 +111,10 @@
 	.toggle {
 		list-style-type: none;
 		filter: invert(1);
+		text-align: center;
 		img {
-			font-size: 25px;
-			width: 20px;
-			transform: translate(-180%);
+			height: 25%;
+			width: 25%;
 		}
 	}
 
@@ -133,13 +127,13 @@
 		font-family: 'Raleway', sans-serif;
 		font-weight: 500;
 		z-index: 1;
-	}
-
-	.active .navbar-data {
 		position: absolute;
-		display: flex;
 		flex-direction: column;
 		top: 70%;
 		right: 0%;
+	}
+
+	.active .navbar-data {
+		display: flex;
 	}
 }
