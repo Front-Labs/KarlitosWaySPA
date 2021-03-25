@@ -22,29 +22,60 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* For mobile */
 @media (orientation: portrait) {
 
     .home-banner {
-        top: 75%;
-        width: 100%;
-        img {
-         width: 100%;
-         height: auto;
-        }
-    } 
+        top: 40%;
+        height: 25%;
+        background-image: url("images/logo2_mob.png");
+    }
+    
+    #slide-1 {
+        background-image: url("images/diner_mob.jpg");
+      }
+      #slide-2 {
+        background-image: url("images/stairs_mob.jpg");
+      }
+      #slide-3 {
+        background-image: url("images/poolhall_mob.jpg");
+      }
+      #slide-4 {
+        background-image: url("images/bowling_mob.jpg");
+      }
+      #slide-5 {
+        background-image: url("images/restaurant_mob.jpg");
+      }
 }
 
 /* For Laptop */
 @media (orientation: landscape) {
     .home-banner {
         top: 50%;
-        img {
-            height: 100%;
-        }
-    } 
+        background-image: url("images/logo2.png");
+        height: 25%;
+    }
+    
+    #slide-1 {
+        background-image: url("images/diner.jpg");
+      }
+      #slide-2 {
+        background-image: url("images/stairs.jpg");
+      }
+      #slide-3 {
+        background-image: url("images/poolhall.jpg");
+      }
+      #slide-4 {
+        background-image: url("images/bowling.jpg");
+      }
+      #slide-5 {
+        background-image: url("images/restaurant.jpg");
+      }
 }
 
